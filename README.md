@@ -7,7 +7,7 @@ Content | Completion
 factor detect | :raised_hand:
 factor reorder | :raised_hand:
 factor set | :raised_hand:
-factor read & write | :raised_hand:
+All test cases for each function | :raised_hand:
 ### foofactors
 
 Factors are a very useful type of variable in R, but they can also drive you nuts. This package provides some helper functions for the care and feeding of factors.

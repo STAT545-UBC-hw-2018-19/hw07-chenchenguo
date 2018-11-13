@@ -48,3 +48,18 @@ The `freq_out()` function returns a frequency table as a well-named `tbl_df`:
 freq_out(x)
 ```
 
+The 'fac_detect' function returns a boolean value of whether input is a valid factor
+```{r}
+fac_detect(factor(c("a", "b", "c")))
+fac_detect(factor(c("a", "b", "a")))
+```
+
+The 'fac_reorder' function returns a same factor with descending order
+```{r}
+fac_reorder(factor(c("B", "A", "C", "D")))
+```
+The 'fac_set' function returns a factor that level has been set the order as they appear in original data
+```{r}
+fac_set(factor(c("C", "D", "B", "A")))
+```
+
